@@ -1,0 +1,108 @@
+body{
+	font-family: "微软雅黑";
+}
+
+body, html {
+    color: #505050;
+    line-height: 1.75em;
+   
+    position: relative;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","Microsoft YaHei UI","Microsoft YaHei",sans-serif;
+}
+
+
+#header{
+	background: url(../images/start1.jpg);
+	
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	height: 280px;
+}
+
+.content{
+	padding-top: 77px;
+}
+.h1, h1 {
+    font-size: 53px;
+    letter-spacing: 5px;
+}
+#header .choose.col-md-12 {
+    margin-top: 41px;
+}
+ #header .btn-primary {
+    color: #fff;
+    background-color: #76d2b3;
+    border-color: #b9d7f1;
+    
+}
+
+.navbar ul.nav.navbar-nav {
+    margin-left: 46px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.navbar a.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 43px;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+    padding: 0px 30px;
+}
+
+/*content*/
+.content-wrap{
+	margin-top: 35px;
+	width: 100%;
+	height: 1300px;
+	text-align: center;
+	
+}
+.content-wrap .row{
+	margin-top: 10px;
+}
+.content-wrap .album {
+    width: 270px;
+    height: 220px;
+    background: #fff;
+    margin: 14px 11px;
+    border: 1px solid #FAF2CC;
+}
+
+
+.content-wrap>img, .content-wrap a>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-wrap .album .name {
+      display: inline-block;
+    max-width: 100%;
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+
+
+
+#footer {
+    background: #111;
+    font-size: 13px;
+   
+    color: #555;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 1px solid #303030;
+}
+
+#footer .row{
+	padding-left: 217px;
+}
